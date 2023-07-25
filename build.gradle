@@ -20,13 +20,6 @@ configurations {
 repositories {
     mavenLocal()
     maven {
-        credentials {
-            username nexusUsername
-            password nexusPassword
-        }
-        url "https://nxrm.liberty.edu/repository/maven-public/"
-    }
-    maven {
         url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
     }
 }
